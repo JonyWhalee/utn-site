@@ -30,6 +30,7 @@ body{
  font-weight: 500;
  padding: 1rem;
  color: #1d3557;
+ text-shadow: 5px 2px 2px rgba(29,53,87,0.51);
 }
 .sec-two{
  height: 100vh;
