@@ -1,0 +1,70 @@
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+.box1{
+ background-color: red;
+}
+.box2{
+ background-color: blue;
+}
+.box3{
+ background-color: green;
+}
+
+
+/* ejercicio 1 */
+
+.container-box{
+ display: flex;
+ border: #000 solid 2px;
+ flex-direction: column;
+ align-items: flex-end;
+ margin-bottom: 4rem ;
+}
+.container-box div{
+ height: 200px;
+ width: 200px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-weight: 900;
+}
+
+/* ejercicio 2 */
+
+.container-box2{
+ display: flex;
+ border: #000 solid 2px;
+ flex-direction: row;
+ justify-content: center;
+ margin-bottom: 4rem ;
+}
+
+.container-box2 div{
+ height: 200px;
+ width: 200px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-weight: 900;
+}
+
+/* ejercicio 3 */
+
+.container-box3{
+ display: flex;
+ border: #000 solid 2px;
+ flex-direction: row;
+ justify-content: space-between;
+ margin-bottom: 4rem ;
+}
+.container-box3 div{
+ height: 200px;
+ width: 200px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-weight: 900;
+}
