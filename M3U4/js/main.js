@@ -2,19 +2,22 @@
 Crear un documento html con 3 cuadrados que, al ser clickeados, cambien el color de fondo del documento. Cada cuadrado debera tener un color distinto.
 */
 
+const back = document.getElementById("body");
+
+
 const cajaUno = document.querySelector("#caja1");
     cajaUno.addEventListener("click", ()=>{
-     cajaUno.style.backgroundColor = "green"
+     back.style.backgroundColor = "red"
     })
 
 const cajaDos = document.querySelector("#caja2");
     cajaDos.addEventListener("click", ()=>{
-     cajaDos.style.backgroundColor = "pink"
+     back.style.backgroundColor = "blue"
     })
 
 const cajaTres = document.querySelector("#caja3");
     cajaTres.addEventListener("click", ()=>{
-     cajaTres.style.backgroundColor = "yellow"
+     back.style.backgroundColor = "yellow"
     })
     
 /*
@@ -25,7 +28,7 @@ Programar un contador de caracteres para un textarea.
 */
 
 function mostrar(value){
- let cantCarac =  value.length
+ let cantCarac =  value.length;
  console.log("cantidad de carracteres es de",cantCarac)
 }
 
