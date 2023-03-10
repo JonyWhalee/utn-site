@@ -1,0 +1,44 @@
+*{
+ padding: 0;
+ margin: 0;
+}
+
+.container-caja{
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ margin-top: 5rem;
+}
+
+.caja{
+ height: 300px;
+ width: 300px;
+}
+
+.caja1{
+ background-color: red;
+}
+
+.caja2{
+ background-color: blue;
+}
+
+.caja3{
+ background-color: brown;
+}
+
+textarea{
+ resize: none;
+}
+
+form{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ margin-top: 5rem;
+}
+
+form input{
+ margin: 2rem;
+}
